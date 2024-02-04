@@ -53,6 +53,35 @@ LegalEase is an innovative AI-powered tool designed to simplify the process of u
   
 - **`NetworkManager.swift` and `GPTService.swift`**: Handle network requests to external APIs for generating summaries and chatbot responses. They encapsulate the logic for sending requests and parsing responses.
 
+**`model training using LLM'**
+
+****GPU Check and PyTorch Info:**
+Verify GPU availability; set device accordingly.
+Display CUDA status, device count, PyTorch, and CUDA versions.
+
+**File Reading and Dataset:**
+Read 'judgement' and 'summary' files; store content in lists.
+Define LegalDataset using PyTorch for data tokenization and preparation.
+
+**T5 Model Fine-Tuning:**
+Load pre-trained T5 model and tokenizer
+Define Adam optimizer, create dataset instances, and DataLoader.
+Fine-tune T5 on the legal dataset for three epochs.
+Save fine-tuned model in 'fine_tuned_legal_summarizer' directory.
+
+**Interruption and Considerations:**
+Possible KeyboardInterrupt during training loop.
+Ensure ample resources for uninterrupted code execution.
+Consider runtime and system capabilities.
+
+**Model Utilization:**
+Import necessary modules.
+Load original and fine-tuned models, and tokenizer.
+Save fine-tuned model and tokenizer.
+Specify text file path and read content.
+Tokenize and generate a summary using the fine-tuned model.
+Decode and print the generated summary.
+
 ### Team Mates Details
 
 - **Aman Ranjan**: Specializes in machine learning and data science, with experience in NLP and model training.
