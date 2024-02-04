@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FF15FBD2B6F206600E8A049 /* LegalEase_V3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF15FBC2B6F206600E8A049 /* LegalEase_V3App.swift */; };
+		2FF15FBF2B6F206600E8A049 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF15FBE2B6F206600E8A049 /* ContentView.swift */; };
+		2FF15FC12B6F206800E8A049 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FF15FC02B6F206800E8A049 /* Assets.xcassets */; };
+		2FF15FC42B6F206800E8A049 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FF15FC32B6F206800E8A049 /* Preview Assets.xcassets */; };
+		2FF15FC62B6F206800E8A049 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF15FC52B6F206800E8A049 /* Persistence.swift */; };
+		2FF15FC92B6F206800E8A049 /* LegalEase_V3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2FF15FC72B6F206800E8A049 /* LegalEase_V3.xcdatamodeld */; };
+		2FF15FD32B6F206800E8A049 /* LegalEase_V3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF15FD22B6F206800E8A049 /* LegalEase_V3Tests.swift */; };
+		2FF15FDD2B6F206900E8A049 /* LegalEase_V3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF15FDC2B6F206900E8A049 /* LegalEase_V3UITests.swift */; };
+		2FF15FDF2B6F206900E8A049 /* LegalEase_V3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF15FDE2B6F206900E8A049 /* LegalEase_V3UITestsLaunchTests.swift */; };
+		2FF15FEC2B6F3F4000E8A049 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF15FEB2B6F3F4000E8A049 /* NetworkManager.swift */; };
+		2FF15FEE2B6F3F6C00E8A049 /* GPTService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF15FED2B6F3F6C00E8A049 /* GPTService.swift */; };
+		2FF15FF02B6F3F8000E8A049 /* DocumentPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF15FEF2B6F3F7F00E8A049 /* DocumentPicker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2FF15FCF2B6F206800E8A049 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FF15FB12B6F206600E8A049 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FF15FB82B6F206600E8A049;
+			remoteInfo = "LegalEase V3";
+		};
+		2FF15FD92B6F206900E8A049 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2FF15FB12B6F206600E8A049 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2FF15FB82B6F206600E8A049;
+			remoteInfo = "LegalEase V3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FF15FB92B6F206600E8A049 /* LegalEase V3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LegalEase V3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FF15FBC2B6F206600E8A049 /* LegalEase_V3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalEase_V3App.swift; sourceTree = "<group>"; };
+		2FF15FBE2B6F206600E8A049 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2FF15FC02B6F206800E8A049 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FF15FC32B6F206800E8A049 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2FF15FC52B6F206800E8A049 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		2FF15FC82B6F206800E8A049 /* LegalEase_V3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LegalEase_V3.xcdatamodel; sourceTree = "<group>"; };
+		2FF15FCE2B6F206800E8A049 /* LegalEase V3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LegalEase V3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FF15FD22B6F206800E8A049 /* LegalEase_V3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalEase_V3Tests.swift; sourceTree = "<group>"; };
+		2FF15FD82B6F206900E8A049 /* LegalEase V3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LegalEase V3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FF15FDC2B6F206900E8A049 /* LegalEase_V3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalEase_V3UITests.swift; sourceTree = "<group>"; };
+		2FF15FDE2B6F206900E8A049 /* LegalEase_V3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegalEase_V3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2FF15FEB2B6F3F4000E8A049 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2FF15FED2B6F3F6C00E8A049 /* GPTService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPTService.swift; sourceTree = "<group>"; };
+		2FF15FEF2B6F3F7F00E8A049 /* DocumentPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentPicker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FF15FB62B6F206600E8A049 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF15FCB2B6F206800E8A049 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF15FD52B6F206900E8A049 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FF15FB02B6F206600E8A049 = {
+			isa = PBXGroup;
+			children = (
+				2FF15FBB2B6F206600E8A049 /* LegalEase V3 */,
+				2FF15FD12B6F206800E8A049 /* LegalEase V3Tests */,
+				2FF15FDB2B6F206900E8A049 /* LegalEase V3UITests */,
+				2FF15FBA2B6F206600E8A049 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FF15FBA2B6F206600E8A049 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FF15FB92B6F206600E8A049 /* LegalEase V3.app */,
+				2FF15FCE2B6F206800E8A049 /* LegalEase V3Tests.xctest */,
+				2FF15FD82B6F206900E8A049 /* LegalEase V3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FF15FBB2B6F206600E8A049 /* LegalEase V3 */ = {
+			isa = PBXGroup;
+			children = (
+				2FF15FBC2B6F206600E8A049 /* LegalEase_V3App.swift */,
+				2FF15FBE2B6F206600E8A049 /* ContentView.swift */,
+				2FF15FEB2B6F3F4000E8A049 /* NetworkManager.swift */,
+				2FF15FED2B6F3F6C00E8A049 /* GPTService.swift */,
+				2FF15FEF2B6F3F7F00E8A049 /* DocumentPicker.swift */,
+				2FF15FC02B6F206800E8A049 /* Assets.xcassets */,
+				2FF15FC52B6F206800E8A049 /* Persistence.swift */,
+				2FF15FC72B6F206800E8A049 /* LegalEase_V3.xcdatamodeld */,
+				2FF15FC22B6F206800E8A049 /* Preview Content */,
+			);
+			path = "LegalEase V3";
+			sourceTree = "<group>";
+		};
+		2FF15FC22B6F206800E8A049 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2FF15FC32B6F206800E8A049 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2FF15FD12B6F206800E8A049 /* LegalEase V3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2FF15FD22B6F206800E8A049 /* LegalEase_V3Tests.swift */,
+			);
+			path = "LegalEase V3Tests";
+			sourceTree = "<group>";
+		};
+		2FF15FDB2B6F206900E8A049 /* LegalEase V3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				2FF15FDC2B6F206900E8A049 /* LegalEase_V3UITests.swift */,
+				2FF15FDE2B6F206900E8A049 /* LegalEase_V3UITestsLaunchTests.swift */,
+			);
+			path = "LegalEase V3UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FF15FB82B6F206600E8A049 /* LegalEase V3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FF15FE22B6F206900E8A049 /* Build configuration list for PBXNativeTarget "LegalEase V3" */;
+			buildPhases = (
+				2FF15FB52B6F206600E8A049 /* Sources */,
+				2FF15FB62B6F206600E8A049 /* Frameworks */,
+				2FF15FB72B6F206600E8A049 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LegalEase V3";
+			productName = "LegalEase V3";
+			productReference = 2FF15FB92B6F206600E8A049 /* LegalEase V3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2FF15FCD2B6F206800E8A049 /* LegalEase V3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FF15FE52B6F206900E8A049 /* Build configuration list for PBXNativeTarget "LegalEase V3Tests" */;
+			buildPhases = (
+				2FF15FCA2B6F206800E8A049 /* Sources */,
+				2FF15FCB2B6F206800E8A049 /* Frameworks */,
+				2FF15FCC2B6F206800E8A049 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FF15FD02B6F206800E8A049 /* PBXTargetDependency */,
+			);
+			name = "LegalEase V3Tests";
+			productName = "LegalEase V3Tests";
+			productReference = 2FF15FCE2B6F206800E8A049 /* LegalEase V3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2FF15FD72B6F206900E8A049 /* LegalEase V3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FF15FE82B6F206900E8A049 /* Build configuration list for PBXNativeTarget "LegalEase V3UITests" */;
+			buildPhases = (
+				2FF15FD42B6F206900E8A049 /* Sources */,
+				2FF15FD52B6F206900E8A049 /* Frameworks */,
+				2FF15FD62B6F206900E8A049 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2FF15FDA2B6F206900E8A049 /* PBXTargetDependency */,
+			);
+			name = "LegalEase V3UITests";
+			productName = "LegalEase V3UITests";
+			productReference = 2FF15FD82B6F206900E8A049 /* LegalEase V3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FF15FB12B6F206600E8A049 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					2FF15FB82B6F206600E8A049 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					2FF15FCD2B6F206800E8A049 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 2FF15FB82B6F206600E8A049;
+					};
+					2FF15FD72B6F206900E8A049 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 2FF15FB82B6F206600E8A049;
+					};
+				};
+			};
+			buildConfigurationList = 2FF15FB42B6F206600E8A049 /* Build configuration list for PBXProject "LegalEase V3" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FF15FB02B6F206600E8A049;
+			productRefGroup = 2FF15FBA2B6F206600E8A049 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FF15FB82B6F206600E8A049 /* LegalEase V3 */,
+				2FF15FCD2B6F206800E8A049 /* LegalEase V3Tests */,
+				2FF15FD72B6F206900E8A049 /* LegalEase V3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FF15FB72B6F206600E8A049 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF15FC42B6F206800E8A049 /* Preview Assets.xcassets in Resources */,
+				2FF15FC12B6F206800E8A049 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF15FCC2B6F206800E8A049 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF15FD62B6F206900E8A049 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FF15FB52B6F206600E8A049 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF15FC92B6F206800E8A049 /* LegalEase_V3.xcdatamodeld in Sources */,
+				2FF15FC62B6F206800E8A049 /* Persistence.swift in Sources */,
+				2FF15FEC2B6F3F4000E8A049 /* NetworkManager.swift in Sources */,
+				2FF15FBF2B6F206600E8A049 /* ContentView.swift in Sources */,
+				2FF15FBD2B6F206600E8A049 /* LegalEase_V3App.swift in Sources */,
+				2FF15FF02B6F3F8000E8A049 /* DocumentPicker.swift in Sources */,
+				2FF15FEE2B6F3F6C00E8A049 /* GPTService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF15FCA2B6F206800E8A049 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF15FD32B6F206800E8A049 /* LegalEase_V3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2FF15FD42B6F206900E8A049 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF15FDD2B6F206900E8A049 /* LegalEase_V3UITests.swift in Sources */,
+				2FF15FDF2B6F206900E8A049 /* LegalEase_V3UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2FF15FD02B6F206800E8A049 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FF15FB82B6F206600E8A049 /* LegalEase V3 */;
+			targetProxy = 2FF15FCF2B6F206800E8A049 /* PBXContainerItemProxy */;
+		};
+		2FF15FDA2B6F206900E8A049 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2FF15FB82B6F206600E8A049 /* LegalEase V3 */;
+			targetProxy = 2FF15FD92B6F206900E8A049 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2FF15FE02B6F206900E8A049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2FF15FE12B6F206900E8A049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2FF15FE32B6F206900E8A049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LegalEase V3/Preview Content\"";
+				DEVELOPMENT_TEAM = 994RXHZ382;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "thedotstore.LegalEase-V3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2FF15FE42B6F206900E8A049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LegalEase V3/Preview Content\"";
+				DEVELOPMENT_TEAM = 994RXHZ382;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "thedotstore.LegalEase-V3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2FF15FE62B6F206900E8A049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 994RXHZ382;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "thedotstore.LegalEase-V3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LegalEase V3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LegalEase V3";
+			};
+			name = Debug;
+		};
+		2FF15FE72B6F206900E8A049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 994RXHZ382;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "thedotstore.LegalEase-V3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LegalEase V3.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LegalEase V3";
+			};
+			name = Release;
+		};
+		2FF15FE92B6F206900E8A049 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 994RXHZ382;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "thedotstore.LegalEase-V3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LegalEase V3";
+			};
+			name = Debug;
+		};
+		2FF15FEA2B6F206900E8A049 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 994RXHZ382;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "thedotstore.LegalEase-V3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "LegalEase V3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FF15FB42B6F206600E8A049 /* Build configuration list for PBXProject "LegalEase V3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FF15FE02B6F206900E8A049 /* Debug */,
+				2FF15FE12B6F206900E8A049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FF15FE22B6F206900E8A049 /* Build configuration list for PBXNativeTarget "LegalEase V3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FF15FE32B6F206900E8A049 /* Debug */,
+				2FF15FE42B6F206900E8A049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FF15FE52B6F206900E8A049 /* Build configuration list for PBXNativeTarget "LegalEase V3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FF15FE62B6F206900E8A049 /* Debug */,
+				2FF15FE72B6F206900E8A049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FF15FE82B6F206900E8A049 /* Build configuration list for PBXNativeTarget "LegalEase V3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FF15FE92B6F206900E8A049 /* Debug */,
+				2FF15FEA2B6F206900E8A049 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2FF15FC72B6F206800E8A049 /* LegalEase_V3.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2FF15FC82B6F206800E8A049 /* LegalEase_V3.xcdatamodel */,
+			);
+			currentVersion = 2FF15FC82B6F206800E8A049 /* LegalEase_V3.xcdatamodel */;
+			path = LegalEase_V3.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2FF15FB12B6F206600E8A049 /* Project object */;
+}
