@@ -1,5 +1,23 @@
 # LegalEase iOS Application
 
+## Working iOS Application Screenshot
+
+![WhatsApp Image 2024-02-04 at 12 22 05_e5081e35](https://github.com/Hackdata2024/45-le/assets/108428995/0157d45d-7b6c-4518-99ba-3f8f54cf18e9)
+
+## Future Product Showcase
+
+![WhatsApp Image 2024-02-04 at 12 22 06_f786dbbd](https://github.com/Hackdata2024/45-le/assets/108428995/d6bb5efc-69bd-46ee-a515-56c151fca12d)
+
+## Figma of Initial App Design
+
+![image](https://github.com/Hackdata2024/45-le/assets/108428995/d582ddca-d933-41c7-ae69-830578fda5fa)
+
+## Product Description and Presentations
+
+![image](https://github.com/Hackdata2024/45-le/assets/108428995/eb49d8d3-7a3a-4145-9b22-b7132faaee5a)
+
+- Video Presentation -> https://docs.google.com/presentation/d/1dg7BhhlS97OkBFreHAcjR3kqcBMoCt8d0O2C84I3K1A/edit?usp=sharing
+- Detailed Presentation -> https://docs.google.com/presentation/d/1OFYNqpjnYhfGh6r2Kzjb5O3G7JShhCI_dnlD-Iflgbw/edit?usp=sharing
 
 ### Team
 
